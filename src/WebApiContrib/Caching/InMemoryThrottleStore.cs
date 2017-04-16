@@ -2,6 +2,9 @@
 
 namespace WebApiContrib.Caching
 {
+    /// <summary>
+    /// test Git /go from a-z
+    /// </summary>
     public class InMemoryThrottleStore : IThrottleStore
     {
         private readonly ConcurrentDictionary<string, ThrottleEntry> _throttleStore = new ConcurrentDictionary<string, ThrottleEntry>();
